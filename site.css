@@ -1,0 +1,197 @@
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+#banner {
+    margin-top: 80px;
+    margin-left: 0;
+    position: fixed;
+    background-image: url(../images/mx.png);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+
+
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: #2C444F;
+   
+}
+
+#logo > img {
+    height: 150px;
+    z-index: 10;
+    position: fixed;
+    z-index: 1040;
+}
+
+.company {
+    font-family: 'Racing Sans One';
+    color: #FC0606;
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+}
+
+.darkhead {
+    font-family: 'Racing Sans One';
+    font-size: 1.5em;
+    color: #001926;
+    text-shadow: 0 0 black;
+}
+
+#sidebar {
+    background-color: white;
+}
+
+#sidebar h1 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 2.5em;
+    color: #FCE903;
+    text-shadow: 2px 2px black;
+}
+.lead {
+    font-size: 1.8em;
+    color: #2C444F;
+}
+
+#login {
+    margin: 12px;
+}
+
+#login a {
+    font-family: Arial;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0 10px;
+
+    
+}
+
+.navbar-header {
+    width: 100%;
+    z-index: 1;
+}
+
+#login span {
+    display: inline-block;
+    padding: 12px 0 8px 4px;
+}
+
+#menu {
+    background-color: #001926;
+    z-index: 10;
+}
+
+.navbar-header img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#login img {
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    margin-top: -2px;
+    display: inline-block;
+}
+
+.members h1 {
+    color: white;
+    display: inline-block;
+}
+   
+
+
+.form-group {
+    font-size: 1.2em;
+    color: #2C444F;
+}
+
+table {
+    color: #2C444F;
+}
+
+#submitbutton {
+    text-align: center;
+    font-style: bold;
+}
+
+.navbar {
+    border-bottom-style: none;
+}
+
+
+#membersbody {
+    background-image: url(../images/membersbackground.jpg);
+    width: 100%;
+    margin-top: 200px;
+}
+
+#body {
+    margin-top: 380px;
+    background-color: white;
+}
+
+
+#membersbody {
+    margin-top: 10px;
+}
+
+#membersbody h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#membersbody table {
+    margin-top: 20px;
+}
+
+#membersheader h1 {
+   font-family: 'Racing Sans One', cursive;
+   font-size: 3em;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    #logo > img {
+        height: 100px;
+        z-index: 10;
+        position: fixed;
+        z-index: 1040;}
+}
+
+@media (max-width: 767px) {
+    #largelogin {
+        float: right;
+    }
+}
+
+#main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#main > p {
+    text-align: justify;
+}
+
+@media (max-width: 991px) {
+    #sidebar {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+   
+
+
+
+
